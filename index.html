@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Touch the numbers</title>
+</head>
+
+<body onload="init()">
+    <h1>Touch numbers</h1>
+    <h2>Click on the numbers in a sequence</h2>
+    <button class="levels" onclick="levelDifficulty(16)">easy(16)</button>
+    <button class="levels" onclick="levelDifficulty(25)">hard(25)</button>
+    <button class="levels" onclick="levelDifficulty(36)">extreme(36)</button>
+    <table border="1" cellpadding="10">
+        <tbody class="board"></tbody>
+    </table>
+    <div class="timer">timer</div>
+    <div class="restart">
+        <h5>you are such a winner!!!</h5>
+        <h5>to restart te game press the wanted game level above</h5>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
